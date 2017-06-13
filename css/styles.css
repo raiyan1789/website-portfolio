@@ -1,6 +1,19 @@
 * {
 	box-sizing: border-box;
 }
-body {
-	background-color: blue;
+
+.navbar {
+		display: flex;
+		font-size: 30px;
+		padding: 5px 20px;
+		/*justify-content: space-between;*/
+}
+.nav-toggle {
+	margin-left: auto;
+	cursor: pointer;
+
+}
+
+.nav-list-collapsed {
+	display: none;
 }
