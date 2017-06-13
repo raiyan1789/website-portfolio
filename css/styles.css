@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+
 }
 
 .navbar {
@@ -11,9 +12,38 @@
 .nav-toggle {
 	margin-left: auto;
 	cursor: pointer;
+	color:#F7F7FF;
 
 }
 
 .nav-list-collapsed {
 	display: none;
+}
+
+.brand-link {
+	text-decoration: none;
+	color:#C47AC0;
+
+}
+.navbar {
+	background-color: #131112
+}
+.header-1 {
+	text-align: center;
+	width:100%;
+	padding:100px;
+	color:#279AF1;
+	background: url(../images/header-img.jpeg);
+	background-size: cover;
+	position: fixed;
+
+}
+.header-1 h1 {
+	border: 2px solid #60656F;
+	border-width: 10px;
+	background-color: black;
+	color: #F7F7FF;
+	width:300px;
+	margin:auto;
+	
 }
